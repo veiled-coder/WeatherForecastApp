@@ -1,0 +1,31 @@
+.season-display,.errorMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.errorMessage{
+    background-color: red;
+    color: aliceblue;
+}
+
+.winter{
+    background-color: aliceblue;
+    
+}
+.summer{
+    background-color: rgb(248, 181, 72);
+    
+}
+.icon-left{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
+.icon-right{
+    position: absolute;
+    bottom:  1rem;
+    right: 0;
+}
+
